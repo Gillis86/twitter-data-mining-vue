@@ -51,7 +51,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: 'http://'+process.env.HOST+':'+process.env.PORT ||'http://127.0.0.1:3000/'
+    baseURL: 'http://'+process.env.HOST+':'+process.env.PORT || 'http://127.0.0.1:3000/'
   },
 
   /*
