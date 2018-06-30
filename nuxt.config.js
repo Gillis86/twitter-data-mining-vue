@@ -51,7 +51,7 @@ module.exports = {
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: 'https://vast-wave-62960.herokuapp.com/'//'https://'+process.env.HOST+':'+process.env.PORT || 'https://127.0.0.1:3000/'
+    baseURL: 'https://twitter-data-mining.herokuapp.com/'
   },
 
   /*
