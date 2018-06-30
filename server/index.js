@@ -27,6 +27,13 @@ async function start() {
     const builder = new Builder(nuxt)
     await builder.build()
   }
+
+  app.use(function (req, res, next) {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    //res.setHeader('Access-Control-Allow-Methods', '*');
+    //res.setHeader("Access-Control-Allow-Headers", "*");
+    next();
+  });
   app.get('/data',(req,res) => {
     let params = req.query
     T.get('statuses/user_timeline', params)
