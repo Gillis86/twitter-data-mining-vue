@@ -4,10 +4,10 @@
             <h3>Made by @Giacomo Ciampoli</h3>
         </div>
         <div class="footer__links">
-            <a href="#">
+            <a href="https://github.com/Gillis86" target="_blank">
                 <i class="fab fa-github fa-2x"></i>
             </a>
-            <a href="#">
+            <a href="mailto:gillispeare.dev@gmail.com">
                 <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
             </a>
         </div>

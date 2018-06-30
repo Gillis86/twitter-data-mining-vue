@@ -120,7 +120,7 @@ export async function setContext(app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {"CONSUMER_KEY":"9Zp4Mpunqk1YQoPUtUyQLdfwN","CONSUMER_SECRET":"8jh9R09Zro1q0Cyvqd8P601vlSyGaQNjaJZbVuGAsvPmhAcHKC","ACCESS_TOKEN":"1012287744033349632-pJeJ4G3z3xXjEAaoSE8TPB1n7BrDGU","ACCESS_TOKEN_SECRET":"205SVHTxQpN2excFJ2Uj1Cvk7qPrfT5vBzQJAM4rSj4N9","HOST":"127.0.0.1","PORT":"3000"}
+      env: {"CONSUMER_KEY":"9Zp4Mpunqk1YQoPUtUyQLdfwN","CONSUMER_SECRET":"8jh9R09Zro1q0Cyvqd8P601vlSyGaQNjaJZbVuGAsvPmhAcHKC","ACCESS_TOKEN":"1012287744033349632-pJeJ4G3z3xXjEAaoSE8TPB1n7BrDGU","ACCESS_TOKEN_SECRET":"205SVHTxQpN2excFJ2Uj1Cvk7qPrfT5vBzQJAM4rSj4N9"}
     }
     // Only set once
     if (context.req) app.context.req = context.req

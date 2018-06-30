@@ -13,7 +13,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"title":"Twitter Data Mining","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":"Get likes and retweets from twitter users - #TwitterAPI"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.0.13\u002Fcss\u002Fall.css"}],"style":[],"script":[]},
+  head: {"title":"Twitter Data Mining","meta":[{"charset":"utf-8"},{"hid":"description","name":"description","content":"Get likes and retweets from twitter users - #TwitterAPI"},{"name":"msapplication-TileColor","content":"#da532c"},{"name":"theme-color","content":"#ffffff"}],"link":[{"rel":"stylesheet","href":"https:\u002F\u002Fuse.fontawesome.com\u002Freleases\u002Fv5.0.13\u002Fcss\u002Fall.css"},{"rel":"icon","type":"image\u002Fpng","sizes":"32x32","href":"\u002Ffavicon-32x32.png"},{"rel":"icon","type":"image\u002Fpng","sizes":"16x16","href":"\u002Ffavicon-16x16.png"},{"rel":"manifest","href":"\u002Fsite.webmanifest"},{"rel":"mask-icon","href":"\u002Fsafari-pinned-tab.svg","color":"#5bbad5"}],"style":[],"script":[]},
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
