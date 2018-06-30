@@ -27,9 +27,13 @@ async function start() {
     const builder = new Builder(nuxt)
     await builder.build()
   }
-
-  app.get('/data',(req,res) => {
+  app.options('/data',(req,res) =>{
     res.header("Access-Control-Allow-Origin", '*');
+  })
+
+  
+  app.get('/data',(req,res) => {
+    
     let params = req.query
     T.get('statuses/user_timeline', params)
             .then( response => {
@@ -64,7 +68,6 @@ async function start() {
   })
 
   app.get('/error',(req,res)=>{
-    res.header("Access-Control-Allow-Origin", '*');
     console.log(req.query)
   })
   // Give nuxt middleware to express
