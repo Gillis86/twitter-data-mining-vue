@@ -28,13 +28,8 @@ async function start() {
     await builder.build()
   }
 
-  app.use(function (req, res, next) {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    //res.setHeader('Access-Control-Allow-Methods', '*');
-    //res.setHeader("Access-Control-Allow-Headers", "*");
-    next();
-  });
   app.get('/data',(req,res) => {
+    res.header("Access-Control-Allow-Origin", '*');
     let params = req.query
     T.get('statuses/user_timeline', params)
             .then( response => {
@@ -69,6 +64,7 @@ async function start() {
   })
 
   app.get('/error',(req,res)=>{
+    res.header("Access-Control-Allow-Origin", '*');
     console.log(req.query)
   })
   // Give nuxt middleware to express
