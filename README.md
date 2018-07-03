@@ -1,6 +1,4 @@
-# client-query-api
 
-> My slick Nuxt.js project
 
 ## Build Setup
 
