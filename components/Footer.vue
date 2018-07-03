@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="footer__author">
-            <h3>Made by @Giacomo Ciampoli</h3>
+            <h3>@Giacomo Ciampoli</h3>
         </div>
         <div class="footer__links">
             <a href="https://github.com/Gillis86" target="_blank">

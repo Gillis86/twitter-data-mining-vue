@@ -14,7 +14,7 @@ export default {
         }
     },
     mounted () {
-    // Overwriting base render method with actual data.
+    // set reference to this for using into renderChart method
     let that = this;
     this.renderChart({
       labels: this.date, //['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
@@ -28,6 +28,13 @@ export default {
     },{
         responsive:true,
         maintainAspectRatio: false,
+        hover:{
+            onHover: function(e) {
+                 const point = this.getElementAtEvent(e);
+                    if (point.length) e.target.style.cursor = 'pointer';
+                        else e.target.style.cursor = 'default';
+      }
+        },
         scales:{
             xAxes: [{
                 ticks: {

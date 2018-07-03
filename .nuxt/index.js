@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 import nuxt_plugin_bootstrapvue_5a2d0276 from 'nuxt_plugin_bootstrapvue_5a2d0276' // Source: ./bootstrap-vue.js
 import nuxt_plugin_axios_24245b47 from 'nuxt_plugin_axios_24245b47' // Source: ./axios.js
+import nuxt_plugin_validator_0f147d59 from 'nuxt_plugin_validator_0f147d59' // Source: ..\\plugins\\validator.js
 
 
 // Component: <no-ssr>
@@ -154,6 +155,7 @@ async function createApp (ssrContext) {
   
   if (typeof nuxt_plugin_bootstrapvue_5a2d0276 === 'function') await nuxt_plugin_bootstrapvue_5a2d0276(app.context, inject)
   if (typeof nuxt_plugin_axios_24245b47 === 'function') await nuxt_plugin_axios_24245b47(app.context, inject)
+  if (typeof nuxt_plugin_validator_0f147d59 === 'function') await nuxt_plugin_validator_0f147d59(app.context, inject)
   
 
   // If server-side, wait for async component to be resolved first

@@ -9,7 +9,7 @@
   </div>
   <div class="error" v-if="this.$store.state.gotError">
     <div class="error__box">
-      <b-alert variant="danger" show>Error Occured! Try with another ID</b-alert>
+      <b-alert variant="danger" show>Error Occured! Try again or use another ID</b-alert>
     </div>
     <div @click="resetError" class="error__close">
             <i class="fa fa-times fa-3x" aria-hidden="true"></i>

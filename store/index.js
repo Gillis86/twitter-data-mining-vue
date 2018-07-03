@@ -48,6 +48,8 @@ export const state = () => ({
 
   export const actions = {
       fetchData({commit},payload){
+          console.log(typeof payload.id)
+          console.log(typeof payload.count)
             this.$axios.$get('/data',{
                 params:{
                     user_id: payload.id,
@@ -58,7 +60,6 @@ export const state = () => ({
                     console.log(response) 
                     commit('SET_DATA',response)
                     commit('SET_USER_META', response[0].user)
-                    commit('DATA_CACHE',response)
                     commit('DATA_IS_READY')
                 })
                 .catch(err => {

@@ -3,8 +3,6 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-const _427d91cd = () => import('..\\pages\\data.vue' /* webpackChunkName: "pages_data" */).then(m => m.default || m)
-const _3921fd75 = () => import('..\\pages\\error.vue' /* webpackChunkName: "pages_error" */).then(m => m.default || m)
 const _15484182 = () => import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */).then(m => m.default || m)
 
 
@@ -65,16 +63,6 @@ export function createRouter () {
     linkExactActiveClass: 'nuxt-link-exact-active',
     scrollBehavior,
     routes: [
-		{
-			path: "/data",
-			component: _427d91cd,
-			name: "data"
-		},
-		{
-			path: "/error",
-			component: _3921fd75,
-			name: "error"
-		},
 		{
 			path: "/",
 			component: _15484182,

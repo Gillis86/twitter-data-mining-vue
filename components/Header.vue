@@ -34,11 +34,12 @@ export default {
         width:100%;
         height:40vh;
         background:#1DA1F2;
-        margin-bottom:90px;
         display:flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        box-shadow: 5px -5px 10px 1px rgba(0,0,0,0.25);
+        //margin-bottom:90px;
         &__title{
             color:#fff;
             margin-top: 40px;
