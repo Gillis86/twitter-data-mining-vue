@@ -1,14 +1,14 @@
 # dependencies
 node_modules
 
-
+# env
 .env
 
 # logs
  npm-debug.log
 
 # Nuxt build
-# .nuxt
+.nuxt
 
 # Nuxt generate
  dist
