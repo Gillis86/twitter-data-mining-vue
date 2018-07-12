@@ -110,6 +110,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom:3rem;
 }
 .input__invalid{
     margin: 30px auto;
