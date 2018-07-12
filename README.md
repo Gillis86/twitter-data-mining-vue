@@ -1,6 +1,6 @@
 ## DESCRIPTION
 
-A simple web app that fetchs tweets of an user, and display the result in a bar chart, highlighting his engagement state(likes and retweet). You have to insert the twitter user ID and the number of tweet you want to fetch.
+A simple web app that fetchs tweets of an user, and display the result in a bar chart, highlighting his engagement state(likes and retweet). Simply insert the twitter user ID and the number of tweet you want to fetch.
 
 ### Note
 since it hosted on [Heroku](https://devcenter.heroku.com/), with the free dyno plan, it will take a while to load the app, since heroku puts in sleep mode basics apps that do not receive traffic in a 30 minute period.
