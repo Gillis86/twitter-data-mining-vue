@@ -25,7 +25,7 @@ https://twitter-data-mining.herokuapp.com/
 
 ## SCREENSHOTS
 
-
+![main_interface](https://user-images.githubusercontent.com/19554149/42648220-90e65292-8606-11e8-98df-38d8a6b5a2f5.png)
 
 ------------------------------------------------
 
