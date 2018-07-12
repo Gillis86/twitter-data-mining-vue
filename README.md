@@ -1,3 +1,24 @@
+## DESCRIPTION
+
+A simple web app that gets tweets from an user, and display the result in a bar chart, highlighting his engagement state(likes and retweet). You have to insert the twitter user ID and the number of tweet you want to fetch.
+
+### Note
+since it hosted on [Heroku](https://devcenter.heroku.com/), with the free dyno plan, it will take a while to load the app, since heroku puts in sleep mode basics apps that do not receive traffic in a 30 minute period.
+
+### Build with
+[Nuxt.js](https://nuxtjs.org/)
+
+
+[Bootstrap Vue](https://bootstrap-vue.js.org/)
+
+
+[Chart JS](https://www.chartjs.org/)
+
+[Express js](http://expressjs.com/)
+
+[Twit](https://github.com/ttezel/twit)
+
+
 ## DEMO
 
 https://twitter-data-mining.herokuapp.com/
