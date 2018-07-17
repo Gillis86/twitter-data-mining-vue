@@ -18,6 +18,8 @@ since it hosted on [Heroku](https://devcenter.heroku.com/), with the free dyno p
 
 [Twit](https://github.com/ttezel/twit)
 
+[Vuex](https://vuex.vuejs.org/guide/)
+
 
 ## DEMO
 
